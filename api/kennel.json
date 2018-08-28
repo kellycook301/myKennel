@@ -1,0 +1,64 @@
+{
+  "employees": [
+    {
+      "id": 2,
+      "name": "Jordan Nelson"
+    },
+    {
+      "id": 3,
+      "name": "Zoe LeBlanc"
+    }
+  ],
+  "animals": [
+    {
+      "id": 1,
+      "name": "Doodles"
+    },
+    {
+      "id": 4,
+      "name": "Henley"
+    },
+    {
+      "id": 5,
+      "name": "Derkins"
+    },
+    {
+      "id": 6,
+      "name": "Checkers"
+    }
+  ],
+  "owners": [
+    {
+      "id": 3,
+      "name": "Henry Henderson",
+      "number": "652-986-4938"
+    },
+    {
+      "id": 4,
+      "name": "Bill Favrah",
+      "number": "302-666-1829"
+    },
+    {
+      "id": 5,
+      "name": "Derkins Finkelstein",
+      "number": "917-383-9825"
+    },
+    {
+      "id": 6,
+      "name": "Bjork!",
+      "number": "732-264-1832"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "North Nashville",
+      "address": " / 500 Circle Way Nashville, TN 37028"
+    },
+    {
+      "id": 2,
+      "name": "South Nashville",
+      "address": " / 10101 Binary Court Nashville, TN 37203"
+    }
+  ]
+}
