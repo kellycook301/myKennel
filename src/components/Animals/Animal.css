@@ -4,6 +4,12 @@
     justify-content: space-evenly;
 }
 
+.animalButton {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 0 10px 0;
+}
+
 .icon--dog {
     width: 50px;
     height: 50px;

@@ -4,6 +4,13 @@
     justify-content: space-evenly;
 }
 
+.ownerButton {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 0 10px 0;
+}
+
+
 .card {
     width: 10rem;
 }

@@ -7,37 +7,39 @@
     {
       "id": 3,
       "name": "Zoe LeBlanc"
+    },
+    {
+      "name": "Dirk Bogner",
+      "nickname": "Pig",
+      "employeeId": 2,
+      "id": 4
+    },
+    {
+      "name": "Frank Castle",
+      "nickname": "CASTLEMAN",
+      "employeeId": 4,
+      "id": 5
     }
   ],
   "animals": [
     {
-      "id": 1,
-      "name": "Doodles"
-    },
-    {
-      "id": 4,
-      "name": "Henley"
-    },
-    {
-      "id": 5,
-      "name": "Derkins"
-    },
-    {
       "id": 6,
       "name": "Checkers"
+    },
+    {
+      "name": "Mr. Smith",
+      "breed": "A Super Big Dog",
+      "employeeId": 2,
+      "id": 7
+    },
+    {
+      "name": ".kdfjsd",
+      "breed": "dsfkjs",
+      "employeeId": 2,
+      "id": 8
     }
   ],
   "owners": [
-    {
-      "id": 3,
-      "name": "Henry Henderson",
-      "number": "652-986-4938"
-    },
-    {
-      "id": 4,
-      "name": "Bill Favrah",
-      "number": "302-666-1829"
-    },
     {
       "id": 5,
       "name": "Derkins Finkelstein",
@@ -47,6 +49,12 @@
       "id": 6,
       "name": "Bjork!",
       "number": "732-264-1832"
+    },
+    {
+      "name": "John May",
+      "occupation": "Banker",
+      "employeeId": 2,
+      "id": 7
     }
   ],
   "locations": [

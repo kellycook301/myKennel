@@ -4,6 +4,16 @@
     justify-content: space-evenly;
 }
 
+.employeeButton {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 0 10px 0;
+}
+
+.employee-detail {
+    margin-left: -2.8em;
+}
+
 .card {
     width: 10rem;
 }

@@ -1,5 +1,6 @@
 // allowing React to be used
 import React, { Component } from 'react';
+import { Link } from "react-router-dom"
 import "./locations.css"
 
 // you can also export from all the way up here. I guess it's like putting the "export" and the component
@@ -7,7 +8,7 @@ import "./locations.css"
 export default class locations extends Component {
 
 // the XML that will be rendered to the DOM. You will see an onClick feature that will allow for the deletion of an item
-// by targetting the id. It will invoke the function "destroyLocation" upon clicking the button. That function can be found
+// by targetting the id. It will invoke the function "deleteLocation" upon clicking the button. That function can be found
 // in ApplicationView.js
 render() {
     return (
@@ -18,9 +19,8 @@ render() {
                         <div className="card-body">
                             <h5 className="card-title">
                                 {location.name}
-                                <a href="#"
-                                    onClick={() => this.props.destroyLocation(location.id)}
-                                    className="card-link">DESTROY LOCATION</a>
+                                <Link className="nav-link detail" to={`/locations/${location.id}`}>Details</Link>
+                                <a href="#" onClick={() => this.props.deleteLocation(location.id)} className="card-link">DESTROY LOCATION</a>
                             </h5>
                         </div>
                     </div>

@@ -4,6 +4,10 @@
     justify-content: space-evenly;
 }
 
+.detail {
+    margin-left: -2.8em;
+}
+
 .card {
     width: 10rem;
 }
