@@ -22,4 +22,15 @@ export default Object.create(null, {
             }).then(e => e.json())
         }
     },
+    edit: {
+        value: function (animal, id) {
+            return fetch(`${remoteURL}/animals/${id}`, {
+                method: "PUT",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(animal),
+            }).then(e => e.json())
+        }
+    },
 })

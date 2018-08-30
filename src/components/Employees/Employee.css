@@ -1,3 +1,11 @@
+.employee-button {
+    margin-top: 1em;
+    background-color: dodgerblue;
+    color: white;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 5%;
+}
 
 .employees {
     display: flex;

@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import ApplicationViews from "./ApplicationViews"
 import NavBar from "./nav/NavBar"
 
-import "./kennel.css"
+import "./Kennel.css"
 import "bootstrap/dist/css/bootstrap.min.css"
 
 

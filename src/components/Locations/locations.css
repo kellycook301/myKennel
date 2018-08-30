@@ -1,4 +1,15 @@
 
+.location-button {
+    margin-top: 1em;
+    background-color: dodgerblue;
+    color: white;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 5%;
+    margin-left: 47%;
+    margin-right: 35%;
+}
+
 .locations {
     display: flex;
     justify-content: space-evenly;

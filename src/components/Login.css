@@ -1,0 +1,13 @@
+.email {
+    display: flex;
+}
+
+.password {
+    display: flex;
+    margin-top: 1em;
+}
+
+.button {
+    display: flex;
+    margin-top: 1.5em;
+}

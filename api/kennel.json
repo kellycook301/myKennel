@@ -23,20 +23,24 @@
   ],
   "animals": [
     {
-      "id": 6,
-      "name": "Checkers"
+      "name": "Buff",
+      "breed": "German Sheppard",
+      "employeeId": 3,
+      "ownerId": 7,
+      "id": 6
     },
     {
-      "name": "Mr. Smith",
-      "breed": "A Super Big Dog",
-      "employeeId": 2,
-      "id": 7
-    },
-    {
-      "name": ".kdfjsd",
-      "breed": "dsfkjs",
-      "employeeId": 2,
+      "name": "Boss",
+      "breed": "Hugo",
+      "employeeId": 3,
+      "ownerId": 6,
       "id": 8
+    },
+    {
+      "name": "Jeff",
+      "breed": "Boxer",
+      "employeeId": 3,
+      "id": 9
     }
   ],
   "owners": [
@@ -55,6 +59,12 @@
       "occupation": "Banker",
       "employeeId": 2,
       "id": 7
+    },
+    {
+      "name": "East Nashville",
+      "city": "Nashville",
+      "employeeId": 2,
+      "id": 8
     }
   ],
   "locations": [
@@ -67,6 +77,16 @@
       "id": 2,
       "name": "South Nashville",
       "address": " / 10101 Binary Court Nashville, TN 37203"
+    },
+    {
+      "name": "East Nashville",
+      "employeeId": 4,
+      "id": 3
+    },
+    {
+      "name": "West Nashville",
+      "employeeId": 2,
+      "id": 4
     }
   ]
 }
